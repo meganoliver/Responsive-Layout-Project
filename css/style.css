@@ -20,11 +20,25 @@ h2{
   font-size: 2em;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow
+}
+
+a:visited {
+  color: black;
+}
+
 /*Header Styling*/
 
 ul {
   list-style: none;
   display: inline-block;
+  padding: 0;
 }
 
 li {
@@ -51,10 +65,13 @@ li {
 #profile-pic {
   width: 200px;
   height: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .introduction {
   background-image: linear-gradient(to bottom, rgba(240,248,255,1), rgba(0,0,0,0));
+  margin-bottom: 5em;
 }
 
 .contact {
@@ -63,6 +80,8 @@ li {
 
 #portfolio {
   margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 
 #email,
@@ -85,11 +104,14 @@ footer h3 {
   margin: 0 auto;
   background-image: linear-gradient(to bottom, rgba(240,248,255,1), rgba(63,189,191,1));
   height: 150px;
+  border-top: 1px solid lightgrey;
 }
 
 #top,
 #name {
     display: inline-block;
+    margin-top: 1em;
+    font-weight: normal;
 }
 
 #top {
@@ -98,6 +120,11 @@ footer h3 {
 
 #name {
   float: left;
+  margin-left: 1em;
+}
+
+#footer-nav {
+  display: none;
 }
 
 /*Media Queries*/
@@ -123,8 +150,54 @@ footer h3 {
   #profile-pic {
     float: right;
   }
+
+#top {
+  display: none;
+  }
+
+#footer-nav {
+  display: inline;
+  float: right;
+  margin: 0 auto;
+  }
+
+  .main-footer li {
+    background: none;
+    margin-top: 1em;
+  }
 }
 
+@media (min-width: 1024px) {
+  .portfolio {
+    width: 33.33%;
+    float: left;
+  }
+
+  .main-header {
+      position: relative;
+  }
+
+  #megan {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin: .25em;
+  }
+
+  .main-nav {
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .main-nav li {
+    background: none;
+  }
+}
 
 /*Clear Fix*/
 
