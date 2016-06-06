@@ -49,22 +49,20 @@ li {
 /*Body Style*/
 
 #profile-pic {
-  width: 100px;
-  height: 100px;
-  float: right
+  width: 200px;
+  height: 200px;
 }
 
 .introduction {
-  margin: 0 auto;
   background-image: linear-gradient(to bottom, rgba(240,248,255,1), rgba(0,0,0,0));
-}
-
-.introduction p {
-    margin: 0 auto;
 }
 
 .contact {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(240,248,255,1));
+}
+
+#portfolio {
+  margin: 0 auto;
 }
 
 #email,
@@ -89,6 +87,19 @@ footer h3 {
   height: 150px;
 }
 
+#top,
+#name {
+    display: inline-block;
+}
+
+#top {
+  float: right;
+}
+
+#name {
+  float: left;
+}
+
 /*Media Queries*/
 
 @media (min-width: 768px) {
@@ -102,7 +113,18 @@ footer h3 {
     margin-left: 2px;
     margin-right: 2px;
   }
+
+  .introduction {
+    display: inline-block;
+    float: left;
+    width: 100%;
+  }
+
+  #profile-pic {
+    float: right;
+  }
 }
+
 
 /*Clear Fix*/
 
