@@ -52,6 +52,7 @@ li {
   background-image: linear-gradient(to top, rgba(240,248,255,1), rgba(63,189,191,1));
   height: 250px;
   margin: 0 auto;
+  border-bottom: 1px solid lightgrey;
 }
 
 .title {
@@ -65,8 +66,6 @@ li {
 #profile-pic {
   width: 200px;
   height: 200px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 .introduction {
@@ -80,8 +79,38 @@ li {
 
 #portfolio {
   margin: 0 auto;
-  margin-top: 1em;
   margin-bottom: .5em;
+  text-decoration: underline;
+  line-height: 1em;
+}
+
+.skills {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skills p {
+  padding: 0;
+  margin: 0 10px 10px;
+}
+
+#skills {
+  text-decoration: underline;
+}
+
+.skills-img {
+  padding-bottom: 4em;
+
+}
+
+.portfolio p {
+  margin: 0 auto;
+}
+#contact {
+  text-decoration: underline;
+}
+.contact p {
+  padding: 5px;
 }
 
 #email,
@@ -98,6 +127,7 @@ footer h3 {
 
 #top {
   text-align: right;
+  margin-right: 10px;
 }
 
 .main-footer {
@@ -130,7 +160,8 @@ footer h3 {
 /*Media Queries*/
 
 @media (min-width: 768px) {
-  .portfolio {
+  .portfolio,
+  .skills-img {
     width: 50%;
     float: left;
   }
