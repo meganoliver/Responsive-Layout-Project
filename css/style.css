@@ -47,7 +47,6 @@ ul {
   padding: 0;
   padding-bottom: 5px;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 li {
@@ -62,10 +61,6 @@ li {
   height: 250px;
   margin: 0 auto;
   border-bottom: 1px solid lightgrey;
-}
-
-.title {
-  margin-bottom: 0;
 }
 
 .title {
