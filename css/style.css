@@ -243,6 +243,10 @@ footer h3 {
   .main-nav li {
     background: none;
   }
+
+  #contact {
+    margin: 0 auto;
+  }
 }
 
 /*Clear Fix*/
