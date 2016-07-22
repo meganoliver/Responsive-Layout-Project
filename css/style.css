@@ -72,9 +72,10 @@ li {
 /*Body Style*/
 
 #profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   margin-top: 15px;
+  margin-left: 15px;
 }
 
 .introduction {
@@ -100,10 +101,9 @@ li {
 }
 
 .skills p {
-  margin-right: 5;
-  margin: 0 10px 10px;
-  width: 40%;
+  width: 100%;
   text-align: center;
+  margin-right: 15em;
 }
 
 #skills {
