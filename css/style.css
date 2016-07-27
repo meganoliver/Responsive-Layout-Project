@@ -202,6 +202,10 @@ footer h3 {
     float: left;
   }
 
+  body {
+     width: 90%;
+     display: inline-block;   
+   }
   li {
     float: left;
     margin-left: 2px;
