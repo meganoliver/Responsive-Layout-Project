@@ -203,8 +203,8 @@ footer h3 {
   }
 
   body {
-     width: 90%;
-     display: inline-block;   
+     width: 100%;
+     display: inline-block;
    }
   li {
     float: left;
@@ -239,6 +239,10 @@ footer h3 {
 }
 
 @media (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
   .portfolio {
     width: 33.33%;
     float: left;
